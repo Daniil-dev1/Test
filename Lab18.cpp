@@ -13,7 +13,7 @@ int main()
 		if (!(set_r.insert(r)))
 			break;
 		else {
-			cout << " " << r << " inserted in set_r\n";
+			cout << "_" << r << " inserted in set_r\n";
 		}
 	}
 
