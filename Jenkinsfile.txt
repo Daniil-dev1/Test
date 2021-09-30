@@ -1,11 +1,6 @@
 pipeline {
   agents any
   stages{
-    stage('Build'){
-      steps{
-        
-      }
-    }
     stage('Test'){
       steps{
         sh 'Hello_test.cpp'
