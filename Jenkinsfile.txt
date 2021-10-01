@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh 'Daniil-dev/Test/Hello_test.cpp'
+                sh '/var/lib/jenkins/workspace/GitPipe/Hello_test.cpp'
             }
         }
     }
