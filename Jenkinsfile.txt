@@ -5,5 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 sh '/var/lib/jenkins/workspace/GitPipe@tmp/Hello_test.cpp'
+            }
+        }
     }
 }
