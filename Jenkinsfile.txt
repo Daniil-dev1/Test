@@ -1,9 +1,10 @@
 pipeline {
-    agent any
+    agent master
 
     stages {
         stage('Hello') {
             steps {
+                echo 'ls -l /var/lib/jenkins/workspace/GitPipe/Hello_test.cpp'
                 sh '/var/lib/jenkins/workspace/GitPipe/Hello_test.cpp'
             }
         }
