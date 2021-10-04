@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh 'clang++ -Wall -std=c++11 Lab18.cpp -o test'
+                sh 'clang++ -Wall -std=c++11 Lab18.cpp -o Output.txt'
             }
         }
     }
