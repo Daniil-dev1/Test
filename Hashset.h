@@ -84,7 +84,7 @@ public:
 		if ((value % size) >= 0)
 			return (value % size);
 		else {
-			int k = value % size;
+			
 			return (size + value % size);
 		}
 	}
