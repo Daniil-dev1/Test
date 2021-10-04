@@ -69,7 +69,7 @@ public:
 		int h = hash_function(keys.size(), value);
 		list<int> tmp = keys[h];
 		for (int i = 0; i != keys[h].size(); i++) {
-			if (tmp == value){
+			if (tmp.front() == value){
 				return 1;
 			}
 			tmp.pop_front();
